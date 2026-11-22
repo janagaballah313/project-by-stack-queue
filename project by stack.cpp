@@ -198,6 +198,8 @@ int main()
         }
         case 5: pop();      break;
         case 6: Display();  break;
+        case 7: qdisplay();  break;
+
         case 0: cout << "Goodbye." << endl; break;
         default: cout << "Invalid choice. Please  a number from the menu." << endl;
         }
