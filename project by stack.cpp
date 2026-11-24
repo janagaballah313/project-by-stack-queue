@@ -123,8 +123,9 @@ void getfront() {
     else {
         cout << "Next claim : " << qarr[front].claim_ID << "(" << qarr[front].customer_name << ")" << endl;
     }
+{
 
-int SIZE() {
+void SIZE() {
     if (qIsEmpty()) {
         cout << " No claims waiting ." << endl;
     } 
